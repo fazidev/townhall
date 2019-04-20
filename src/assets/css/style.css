@@ -39,6 +39,7 @@
         opacity: 0.5;
         background-color: #f2f2f2;
         position: relative;
+        padding-left:48px;
       }
       .header .search-container img{
         position: absolute;
@@ -87,5 +88,10 @@
       .profile-image img{
         width: 100%;
         border-radius: 100px;
+      }
+      .flex-adio{
+        display: flex;
+        justify-content: center;
+        width: 625px;
       }
       

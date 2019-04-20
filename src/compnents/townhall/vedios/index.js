@@ -1,5 +1,5 @@
 import React , {Component} from 'react';
-
+import Music from '../../audio';
  
 class videoContent extends Component{
     state = {
@@ -69,6 +69,9 @@ class videoContent extends Component{
                                     <div className="col-12" >
                                         <div className="video-primary w-container">
                                             <iframe width="100%" height="300px" src={this.state.video[this.state.getvideo].videoUrl} ></iframe>
+                                        </div>
+                                        <div className="flex-adio">
+                                            <Music/>
                                         </div>
                                     </div>
                                 }
