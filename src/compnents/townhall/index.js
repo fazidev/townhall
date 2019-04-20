@@ -1,5 +1,6 @@
 import React , {Component} from 'react';
 import Sidebar from '../../compnents/townhall/sidebar';
+import Header from '../commoncomponent/header'
 class townHall extends Component{
     render(){
         return(
@@ -9,7 +10,9 @@ class townHall extends Component{
                         <div className="col-3 sidebar">
                             <Sidebar/>
                         </div>
-                        <div className="col-9">1</div>
+                        <div className="col-9">
+                           <Header/>
+                        </div>
                     </div>
                 </div>
                 
