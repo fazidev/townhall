@@ -1,0 +1,83 @@
+.sidebar{
+    background-color:#98CE00;
+    height: 100vh;
+}
+.logo-wrapper{
+    text-align: center
+}
+.logo-wrapper .logo-below h1{
+    font-size:22px;
+    color:#fff;
+    font-weight: normal;
+}
+.logo-wrapper .logo-below h2{
+    font-size:18px;
+    color:#009b00;
+    font-weight: normal;
+}
+.logo-wrapper .logo-img{
+    padding:40px 0;
+    display: flex;
+    justify-content: center;
+}
+.logo-wrapper .logo-wrp{
+    height: 75px;
+    width: 90px;
+}
+.logo-wrapper .logo-wrp img{
+    width:100%;
+}
+.list-option ul li{
+    padding: 15px 20px;
+    position: relative;
+    cursor: pointer;
+}
+.list-option ul li img{
+    width:28px;
+    margin-top: -7px;
+}
+.list-option ul{
+    padding:0px;
+    list-style: none;
+}
+.list-option ul li span{
+    font-size:19px;
+    color:#fff;
+    margin-left:10px;
+}
+.list-option ul li:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -15px;
+    right: 0;
+    border-top: 46px solid #fff;
+    z-index: 2;
+    width: 5px;
+    top: 7px;
+}
+.list-option{
+    padding:60px 0;
+}
+.back-btn .back-button{
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: #98CE00;
+    position: absolute;
+    right: -51px;
+    top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-size:23px;
+    z-index: 4;
+    cursor: pointer;
+}
+.back-btn .back-button img{
+    width:30px;
+}
+.primary-container{
+    position: relative;
+}
