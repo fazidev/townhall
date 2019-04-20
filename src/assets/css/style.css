@@ -31,7 +31,7 @@
         
       }
       .header .search-container input{
-        width: 600px;
+        width: 700px;
         border-radius: 50px;
         outline: none;
         border: 1px solid #ececec;
@@ -42,7 +42,7 @@
       }
       .header .search-container img{
         position: absolute;
-        top: 44px;
+        top: 42px;
         left: 88px;
         width: 27px;
       }
