@@ -81,3 +81,33 @@
 .primary-container{
     position: relative;
 }
+.vedio-header h1{
+    color:#009b00;
+    font-size:37px;
+    font-weight:normal;
+}
+.vedio-header h2{
+    color:#b0c512;
+    font-size:22px;
+    font-weight:normal;
+}
+.video-content{
+    padding: 40px 60px 40px 55px;
+}
+.video-thumnails{
+    padding:70px 0;
+}
+.video-thumnails .video-primary{
+    margin:10px 0;
+    cursor: pointer;
+}
+.thumnail-image img{
+    width:100%;
+}
+.thumnail-image{
+    height: 150px
+}
+.w-container{
+    width:625px;
+    padding-left:30px;
+}
