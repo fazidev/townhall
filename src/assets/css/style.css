@@ -30,6 +30,7 @@
         padding: 20px 50px;
         
       }
+     
       .header .search-container input{
         width: 700px;
         border-radius: 50px;
@@ -94,4 +95,457 @@
         justify-content: center;
         width: 625px;
       }
-      
+      .bars-container{
+        margin: 35px 0px 0px 40px;
+        display: none;
+      }
+      .bars-container i{
+          font-size: 24px;
+      }
+
+      @media (max-width: 479px) and (min-width: 320px) {
+         
+          .main-container{
+              display: flex;
+          }
+          .sidebar{
+            max-width: 229px;
+            flex: unset;
+          }
+          .sidebar {
+            width:229px;
+            -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+            animation-name: example;
+            animation-duration: 0.20s;
+           }
+           /* Standard syntax */
+           @keyframes example {
+            from {
+                 width:0px;
+            }
+            to {
+              width: 229px;
+            }
+        }
+          .sidebar>div{
+            min-width: 200px;
+          }
+        .active{
+            display: block;
+        }
+         .closefile{
+            display: none;    
+        }  
+       
+        .bars-container{
+            display: block;
+           z-index: 1;
+          }
+          .sidearea{
+              flex-flow: nowrap;
+              overflow: hidden;
+          }
+          .header{
+            max-width: 250px;
+            padding: 20px;
+          }
+          .header .search-container input{
+            width: 130px;
+            padding: 3px 3px 3px 30px;
+          }
+          .header .search-container img{
+              left: 45px;
+              width: 20px;
+          }
+          .dropdown-list ul{
+            width: 120px;
+            right: -36px;
+            top: 42px;
+          }
+          .dropdown-list ul li{
+              padding: 2px 0px;
+              font-size: 12px;
+          }
+          .video-content{
+              padding: 0px;
+          }
+          .w-container{
+              width: 100%;
+              padding: 0px;
+          }
+          .flex-adio{
+              width: 100%;
+          }
+      }
+      @media (max-width: 991px) and (min-width: 768px) {
+        .main-container{
+            display: flex;
+        }
+        .sidebar{
+          max-width: 229px;
+          flex: unset;
+        }
+        .sidebar {
+            width:229px;
+            -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+            animation-name: example;
+            animation-duration: 0.20s;
+           }
+           /* Standard syntax */
+           @keyframes example {
+            from {
+                 width:0px;
+            }
+            to {
+              width: 229px;
+            }
+        }
+        .sidebar>div{
+          min-width: 200px;
+        }
+      .active{
+          display: block;
+      }
+       .closefile{
+          display: none;    
+      }  
+      .bars-container{
+          display: block;
+         z-index: 1;
+        }
+        .sidearea{
+            flex-flow: nowrap;
+            overflow: hidden;
+        }
+        .header{
+            max-width: 100%;
+          padding: 20px;
+        }
+        .header .search-container input{
+            width: 360px;
+          padding: 3px 3px 3px 30px;
+        }
+        .header .search-container img{
+            left: 45px;
+            width: 20px;
+        }
+        .dropdown-list ul{
+          width: 120px;
+          right: -36px;
+          top: 42px;
+        }
+        .dropdown-list ul li{
+            padding: 2px 0px;
+            font-size: 12px;
+        }
+        .video-content{
+            padding: 0px;
+        }
+        .w-container{
+            width: 100%;
+            padding: 0px;
+        }
+        .flex-adio{
+            width: 100%;
+        }
+      } 
+      @media (max-width: 567px) and (min-width: 480px) {
+        .main-container{
+            display: flex;
+        }
+        .sidebar{
+          max-width: 229px;
+          flex: unset;
+        }
+        .sidebar>div{
+          min-width: 200px;
+        }
+      .active{
+          display: block;
+      }
+       .closefile{
+          display: none;    
+      }  
+      .bars-container{
+          display: block;
+         z-index: 1;
+        }
+        .sidearea{
+            flex-flow: nowrap;
+            overflow: hidden;
+        }
+        .header{
+            max-width: 100%;
+          padding: 20px;
+        }
+        .header .search-container input{
+            width: 360px;
+          padding: 3px 3px 3px 30px;
+        }
+        .header .search-container img{
+            left: 45px;
+            width: 20px;
+        }
+        .dropdown-list ul{
+          width: 120px;
+          right: -36px;
+          top: 42px;
+        }
+        .dropdown-list ul li{
+            padding: 2px 0px;
+            font-size: 12px;
+        }
+        .video-content{
+            padding: 0px;
+        }
+        .w-container{
+            width: 100%;
+            padding: 0px;
+        }
+        .flex-adio{
+            width: 100%;
+        }
+      }
+      @media (max-width: 684px) and (min-width: 568px) {
+        .main-container{
+            display: flex;
+        }
+        .sidebar{
+          max-width: 229px;
+          flex: unset;
+        }
+        .sidebar {
+            width:229px;
+            -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+            animation-name: example;
+            animation-duration: 0.20s;
+           }
+           /* Standard syntax */
+           @keyframes example {
+            from {
+                 width:0px;
+            }
+            to {
+              width: 229px;
+            }
+        }
+        .sidebar>div{
+          min-width: 200px;
+        }
+      .active{
+          display: block;
+      }
+       .closefile{
+          display: none;    
+      }  
+      .bars-container{
+          display: block;
+         z-index: 1;
+        }
+        .sidearea{
+            flex-flow: nowrap;
+            overflow: hidden;
+        }
+        .header{
+            max-width: 100%;
+          padding: 20px;
+        }
+        .header .search-container input{
+            width: 360px;
+          padding: 3px 3px 3px 30px;
+        }
+        .header .search-container img{
+            left: 45px;
+            width: 20px;
+        }
+        .dropdown-list ul{
+          width: 120px;
+          right: -36px;
+          top: 42px;
+        }
+        .dropdown-list ul li{
+            padding: 2px 0px;
+            font-size: 12px;
+        }
+        .video-content{
+            padding: 0px;
+        }
+        .w-container{
+            width: 100%;
+            padding: 0px;
+        }
+        .flex-adio{
+            width: 100%;
+        }
+      }
+      @media (max-width: 767px) and (min-width: 685px)  {
+        .main-container{
+            display: flex;
+        }
+        .sidebar{
+          max-width: 229px;
+          flex: unset;
+        }
+        .sidebar {
+            width:229px;
+            -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+            animation-name: example;
+            animation-duration: 0.20s;
+           }
+           /* Standard syntax */
+           @keyframes example {
+            from {
+                 width:0px;
+            }
+            to {
+              width: 229px;
+            }
+        }
+        .sidebar>div{
+          min-width: 200px;
+        }
+      .active{
+          display: block;
+      }
+       .closefile{
+          display: none;    
+      }  
+      .bars-container{
+          display: block;
+         z-index: 1;
+        }
+        .sidearea{
+            flex-flow: nowrap;
+            overflow: hidden;
+        }
+        .header{
+            max-width: 100%;
+          padding: 20px;
+        }
+        .header .search-container input{
+            width: 360px;
+          padding: 3px 3px 3px 30px;
+        }
+        .header .search-container img{
+            left: 45px;
+            width: 20px;
+        }
+        .dropdown-list ul{
+          width: 120px;
+          right: -36px;
+          top: 42px;
+        }
+        .dropdown-list ul li{
+            padding: 2px 0px;
+            font-size: 12px;
+        }
+        .video-content{
+            padding: 0px;
+        }
+        .w-container{
+            width: 100%;
+            padding: 0px;
+        }
+        .flex-adio{
+            width: 100%;
+        }
+      }
+      @media (max-width: 991px) and (min-width: 768px) {
+        .main-container{
+            display: flex;
+        }
+        .sidebar{
+          max-width: 229px;
+          flex: unset;
+        }
+        .sidebar {
+            width:229px;
+            -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+            animation-name: example;
+            animation-duration: 0.20s;
+           }
+           /* Standard syntax */
+           @keyframes example {
+            from {
+                 width:0px;
+            }
+            to {
+              width: 229px;
+            }
+        }
+        .sidebar>div{
+          min-width: 200px;
+        }
+      .active{
+          display: block;
+      }
+       .closefile{
+          display: none;    
+      }  
+      .bars-container{
+          display: block;
+         z-index: 1;
+        }
+        .sidearea{
+            flex-flow: nowrap;
+            overflow: hidden;
+        }
+        .header{
+            max-width: 100%;
+          padding: 20px;
+        }
+        .header .search-container input{
+            width: 360px;
+          padding: 3px 3px 3px 30px;
+        }
+        .header .search-container img{
+            left: 45px;
+            width: 20px;
+        }
+        .dropdown-list ul{
+          width: 120px;
+          right: -36px;
+          top: 42px;
+        }
+        .dropdown-list ul li{
+            padding: 2px 0px;
+            font-size: 12px;
+        }
+        .video-content{
+            padding: 0px;
+        }
+        .w-container{
+            width: 100%;
+            padding: 0px;
+        }
+        .flex-adio{
+            width: 100%;
+        }
+      }
+      @media (max-width: 1199px) and (min-width: 1024px) {
+        .header{
+            max-width: 100%;
+            padding: 20px;
+            justify-content: space-around;
+        }
+        .header .search-container input{
+            width: 500px;
+          padding: 3px 3px 3px 30px;
+        }
+        .header .search-container img{
+            left: 45px;
+            width: 20px;
+        }
+        .header .search-container img {
+            left: 88px;
+            width: 20px;
+        }
+        .dropdown-list ul{
+            right: -66px;
+        }
+      }

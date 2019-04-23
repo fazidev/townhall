@@ -57,7 +57,7 @@ class videoContent extends Component{
                                 <div className="row">
                                 { this.state.videolist &&
                                     this.state.video.map((videokey , index) => 
-                                    <div className="col-4" key={index}  onClick={() => this.handlevideo(index)}>
+                                    <div className="col-sm-4" key={index}  onClick={() => this.handlevideo(index)}>
                                         <div className="video-primary thumnail-image">
                                            <img src={require('../../../assets/images/' + videokey.thumnail)}/>
                                         </div>
@@ -66,7 +66,7 @@ class videoContent extends Component{
                                 }
 
                                 { this.state.videodetail &&
-                                    <div className="col-12" >
+                                    <div className="col-sm-12" >
                                         <div className="video-primary w-container">
                                             <iframe width="100%" height="300px" src={this.state.video[this.state.getvideo].videoUrl} ></iframe>
                                         </div>

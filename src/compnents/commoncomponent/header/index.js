@@ -31,6 +31,7 @@ showDropdownMenu(event) {
   render() {
     return (
      <div className="header">
+      
      <div className="search-container">
          <img src={require("../../../assets/images/search.svg")} alt=""/>
        <input type="text" />

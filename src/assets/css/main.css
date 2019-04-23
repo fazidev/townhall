@@ -1,6 +1,8 @@
 .sidebar{
     background-color:#98CE00;
     height: 100vh;
+    display: block;
+    max-width: 300px;
 }
 .logo-wrapper{
     text-align: center
